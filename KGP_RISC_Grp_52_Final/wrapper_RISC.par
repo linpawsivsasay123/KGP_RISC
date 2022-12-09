@@ -1,0 +1,220 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+HWLAB52::  Wed Nov 09 16:03:08 2022
+
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd
+wrapper_RISC.pcf 
+
+
+Constraints file: wrapper_RISC.pcf.
+Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "wrapper_RISC" is an NCD, version 3.2, device xa7a100t, package csg324, speed -2i
+
+Initializing temperature to 100.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRELIMINARY 1.07 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,068 out of 126,800    1%
+    Number used as Flip Flops:               1,057
+    Number used as Latches:                     11
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      2,015 out of  63,400    3%
+    Number used as logic:                    2,014 out of  63,400    3%
+      Number using O6 output only:           1,412
+      Number using O5 output only:              28
+      Number using O5 and O6:                  574
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of  19,000    0%
+    Number used exclusively as route-thrus:      1
+      Number with same-slice register load:      0
+      Number with same-slice carry load:         1
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   567 out of  15,850    3%
+  Number of LUT Flip Flop pairs used:        2,016
+    Number with an unused Flip Flop:         1,460 out of   2,016   72%
+    Number with an unused LUT:                   1 out of   2,016    1%
+    Number of fully used LUT-FF pairs:         555 out of   2,016   27%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of 126,800    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        29 out of     210   13%
+    Number of LOCed IOBs:                       29 out of      29  100%
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                  2 out of     135    1%
+    Number using RAMB36E1 only:                  2
+    Number using FIFO36E1 only:                  0
+  Number of RAMB18E1/FIFO18E1s:                  0 out of     270    0%
+  Number of BUFG/BUFGCTRLs:                      1 out of      32    3%
+    Number used as BUFGs:                        1
+    Number used as BUFGCTRLs:                    0
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     300    0%
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     300    0%
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        0 out of     300    0%
+  Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      24    0%
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          0 out of      24    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHCEs:                             0 out of      96    0%
+  Number of BUFRs:                               0 out of      24    0%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DNA_PORTs:                           0 out of       1    0%
+  Number of DSP48E1s:                            0 out of     240    0%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of IBUFDS_GTE2s:                        0 out of       4    0%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         0 out of       6    0%
+  Number of IN_FIFOs:                            0 out of      24    0%
+  Number of MMCME2_ADVs:                         0 out of       6    0%
+  Number of OUT_FIFOs:                           0 out of      24    0%
+  Number of PCIE_2_1s:                           0 out of       1    0%
+  Number of PHASER_REFs:                         0 out of       6    0%
+  Number of PHY_CONTROLs:                        0 out of       6    0%
+  Number of PLLE2_ADVs:                          0 out of       6    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of XADCs:                               0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 12 secs 
+Finished initial Timing Analysis.  REAL time: 12 secs 
+
+Starting Router
+
+
+Phase  1  : 12424 unrouted;      REAL time: 13 secs 
+
+Phase  2  : 11392 unrouted;      REAL time: 14 secs 
+
+Phase  3  : 3564 unrouted;      REAL time: 17 secs 
+
+Phase  4  : 3617 unrouted; (Setup:1744475, Hold:2381, Component Switching Limit:0)     REAL time: 24 secs 
+
+Updating file: wrapper_RISC.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:2825551, Hold:2599, Component Switching Limit:0)     REAL time: 1 mins 3 secs 
+
+Phase  6  : 0 unrouted; (Setup:3407969, Hold:2493, Component Switching Limit:0)     REAL time: 2 mins 11 secs 
+
+Phase  7  : 0 unrouted; (Setup:3407969, Hold:2493, Component Switching Limit:0)     REAL time: 2 mins 11 secs 
+
+Phase  8  : 0 unrouted; (Setup:3407969, Hold:2493, Component Switching Limit:0)     REAL time: 2 mins 11 secs 
+
+Phase  9  : 0 unrouted; (Setup:3363149, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 15 secs 
+Total REAL time to Router completion: 2 mins 15 secs 
+Total CPU time to Router completion: 2 mins 15 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP |BUFGCTRL_X0Y31| No   |  166 |  0.215     |  1.605      |
++---------------------+--------------+------+------+------------+-------------+
+|RISC/alu/Mmux_Select |              |      |      |            |             |
+|                B102 |         Local|      |   63 |  0.088     |  0.695      |
++---------------------+--------------+------+------+------------+-------------+
+|RISC/alu/Differ/_n00 |              |      |      |            |             |
+|                  79 |         Local|      |    3 |  0.244     |  0.553      |
++---------------------+--------------+------+------+------------+-------------+
+|RISC/alu/GND_12_o_AL |              |      |      |            |             |
+|   UOps[3]_AND_188_o |         Local|      |    1 |  0.000     |  0.757      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 3363149 (Setup: 3363149, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to ensure the best options
+   are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |    -8.550ns|    20.094ns|    1128|     3363149
+  pin" 100 MHz HIGH 50%                     | HOLD        |     0.236ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+1 constraint not met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 mins 23 secs 
+Total CPU time to PAR completion: 2 mins 23 secs 
+
+Peak Memory Usage:  4838 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - 1128 errors found.
+
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 0
+
+Writing design to file wrapper_RISC.ncd
+
+
+
+PAR done!

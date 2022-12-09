@@ -1,0 +1,33 @@
+ISim log file
+Running: C:\Users\Student\Desktop\KGP_RISC_Grp_52\Test_RISC_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Student/Desktop/KGP_RISC_Grp_52/Test_RISC_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Test_RISC.v" Line 32.  For instance Test_RISC/uut/, width 16 of formal port out is not equal to width 32 of actual signal out.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Test_RISC.uut.IM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Test_RISC.uut.dataMem.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 10s
+Stopped at time : 3455185100 ps : File "C:/Users/Student/Desktop/KGP_RISC_Grp_52/ALU_Module.v" Line 44
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Test_RISC.v" Line 32.  For instance Test_RISC/uut/, width 16 of formal port out is not equal to width 32 of actual signal out.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Test_RISC.uut.IM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Test_RISC.uut.dataMem.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 1s
+Stopped at time : 7963195100 ps : File "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Main_Module.v" Line 36

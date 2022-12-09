@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Student\Desktop\KGP_RISC_Grp_52\wrapper_RISC.ncd
+OUTFILE=C:\Users\Student\Desktop\KGP_RISC_Grp_52\wrapper_RISC.bit
+FAMILY=Automotive Artix7
+PART=xa7a100t-2icsg324
+WORKINGDIR=C:\Users\Student\Desktop\KGP_RISC_Grp_52
+LICENSE=WebPack
+USER_INFO=__0_0_0

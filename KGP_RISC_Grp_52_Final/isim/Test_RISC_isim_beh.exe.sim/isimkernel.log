@@ -1,0 +1,28 @@
+Command line:
+   Test_RISC_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61081
+
+Wed Nov 09 14:16:04 2022
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5162.47 Meg
+
+ Total Signals          : 545
+ Total Nets             : 2496
+ Total Signal Drivers   : 268
+ Total Blocks           : 66
+ Total Primitive Blocks : 54
+ Total Processes        : 309
+ Total Traceable Variables  : 676
+ Total Scalar Nets and Variables : 113809
+
+ Total Simulation Time: 25.3281 sec
+
+ Current Memory Usage: 5477.04 Meg
+
+Wed Nov 09 14:16:42 2022
+

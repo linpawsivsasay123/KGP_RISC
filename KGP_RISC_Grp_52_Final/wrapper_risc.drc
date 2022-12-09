@@ -1,0 +1,19 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Nov 09 16:06:19 2022
+
+drc -z wrapper_RISC.ncd wrapper_RISC.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net RISC/alu/Mmux_SelectB102 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net RISC/alu/Differ/_n0079 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   RISC/alu/GND_12_o_ALUOps[3]_AND_188_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+DRC detected 0 errors and 3 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

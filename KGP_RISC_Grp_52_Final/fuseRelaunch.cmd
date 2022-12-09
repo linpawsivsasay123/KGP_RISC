@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Test_RISC_isim_beh.exe" -prj "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Test_RISC_beh.prj" "work.Test_RISC" "work.glbl" 

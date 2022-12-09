@@ -1,0 +1,94 @@
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIS_UCF.ucf -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf -ucf RIS_UCF.ucf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIS_UCF.ucf -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf -ucf RIS_UCF.ucf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIS_UCF.ucf -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf -ucf RIS_UCF.ucf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIS_UCF.ucf -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf -ucf RIS_UCF.ucf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIS_UCF.ucf -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf -ucf RIS_UCF.ucf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/wrapper_RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc RIS_UCF.ucf -p xa7a100t-csg324-2I wrapper_RISC.ngc wrapper_RISC.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_RISC_map.ncd wrapper_RISC.ngd wrapper_RISC.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_RISC_map.ncd wrapper_RISC.ncd wrapper_RISC.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml wrapper_RISC.twx wrapper_RISC.ncd -o wrapper_RISC.twr wrapper_RISC.pcf -ucf RIS_UCF.ucf 
+bitgen -intstyle ise -f wrapper_RISC.ut wrapper_RISC.ncd 

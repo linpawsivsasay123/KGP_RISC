@@ -1,0 +1,4 @@
+verilog work "Shift_Module.v"
+verilog work "Diff_Module.v"
+verilog work "Adder_Module.v"
+verilog work "ALU_Module.v"

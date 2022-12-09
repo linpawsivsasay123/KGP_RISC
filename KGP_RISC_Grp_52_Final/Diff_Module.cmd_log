@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I Diff_Module.ngc Diff_Module.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Diff_Module_map.ncd Diff_Module.ngd Diff_Module.pcf 
+par -w -intstyle ise -ol high -mt off Diff_Module_map.ncd Diff_Module.ncd Diff_Module.pcf 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I Diff_Module.ngc Diff_Module.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Diff_Module_map.ncd Diff_Module.ngd Diff_Module.pcf 
+par -w -intstyle ise -ol high -mt off Diff_Module_map.ncd Diff_Module.ncd Diff_Module.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml Diff_Module.twx Diff_Module.ncd -o Diff_Module.twr Diff_Module.pcf 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I Diff_Module.ngc Diff_Module.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Diff_Module_map.ncd Diff_Module.ngd Diff_Module.pcf 
+par -w -intstyle ise -ol high -mt off Diff_Module_map.ncd Diff_Module.ncd Diff_Module.pcf 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I Diff_Module.ngc Diff_Module.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Diff_Module_map.ncd Diff_Module.ngd Diff_Module.pcf 
+par -w -intstyle ise -ol high -mt off Diff_Module_map.ncd Diff_Module.ncd Diff_Module.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml Diff_Module.twx Diff_Module.ncd -o Diff_Module.twr Diff_Module.pcf 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.syr" 
+xst -intstyle ise -ifn "/home/pranav/KGP_RISC_Grp_52/Diff_Module.xst" -ofn "/home/pranav/KGP_RISC_Grp_52/Diff_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I Diff_Module.ngc Diff_Module.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Diff_Module_map.ncd Diff_Module.ngd Diff_Module.pcf 
+par -w -intstyle ise -ol high -mt off Diff_Module_map.ncd Diff_Module.ncd Diff_Module.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml Diff_Module.twx Diff_Module.ncd -o Diff_Module.twr Diff_Module.pcf 

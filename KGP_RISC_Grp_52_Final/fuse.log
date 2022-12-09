@@ -1,0 +1,65 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Test_RISC_isim_beh.exe" -prj "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Test_RISC_beh.prj" "work.Test_RISC" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Look_Ahead_Carry_Unit.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/CLA_4_Bit.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/CLA_16_Bit.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Shift_Module.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Diff_Module.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Adder_Module.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Sign_Extend_Module.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Register_File.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Program_Counter.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/MUX_3X1_5B.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/MUX_3X1_32B.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/MUX_2X1_32B.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Jump_Control.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/ipcore_dir/INSTR_MEM.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/ipcore_dir/DATA_MEM.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/DFF_Module.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Control_Module.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/ALU_Module.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/ALU_Control_Module.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Main_Module.v" into library work
+Analyzing Verilog file "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Test_RISC.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/Student/Desktop/KGP_RISC_Grp_52/Test_RISC.v" Line 39: Size mismatch in connection of port <out>. Formal port size is 16-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module Program_Counter
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module INSTR_MEM
+Compiling module MUX_3X1_5B
+Compiling module Register_File
+Compiling module Control_Module
+Compiling module ALU_Control_Module
+Compiling module Sign_Extend_Module
+Compiling module MUX_2X1_32B
+Compiling module CLA_4_Bit
+Compiling module Look_Ahead_Carry_Unit
+Compiling module CLA_16_Bit
+Compiling module Adder_Module
+Compiling module Shift_Module
+Compiling module Diff_Module
+Compiling module ALU_Module
+Compiling module DFF_Module
+Compiling module Jump_Control
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module DATA_MEM
+Compiling module MUX_3X1_32B
+Compiling module Main_Module
+Compiling module Test_RISC
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 22 sub-compilation(s) to finish...
+Compiled 29 Verilog Units
+Built simulation executable C:/Users/Student/Desktop/KGP_RISC_Grp_52/Test_RISC_isim_beh.exe
+Fuse Memory Usage: 34028 KB
+Fuse CPU Usage: 640 ms

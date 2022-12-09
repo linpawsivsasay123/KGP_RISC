@@ -1,0 +1,3 @@
+verilog work "Jump_Control.v"
+verilog work "Test_Branch_Module.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

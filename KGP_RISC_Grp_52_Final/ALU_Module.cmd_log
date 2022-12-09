@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/ALU_Module.xst" -ofn "C:/Users/Student/Desktop/KGP_RISC_Grp_52/ALU_Module.syr" 
+xst -intstyle ise -ifn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.xst" -ofn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.syr" 
+xst -intstyle ise -ifn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.xst" -ofn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.syr" 
+xst -intstyle ise -ifn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.xst" -ofn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I ALU_Module.ngc ALU_Module.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Module_map.ncd ALU_Module.ngd ALU_Module.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Module_map.ncd ALU_Module.ncd ALU_Module.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml ALU_Module.twx ALU_Module.ncd -o ALU_Module.twr ALU_Module.pcf 
+xst -intstyle ise -ifn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.xst" -ofn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I ALU_Module.ngc ALU_Module.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Module_map.ncd ALU_Module.ngd ALU_Module.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Module_map.ncd ALU_Module.ncd ALU_Module.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml ALU_Module.twx ALU_Module.ncd -o ALU_Module.twr ALU_Module.pcf 
+xst -intstyle ise -ifn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.xst" -ofn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I ALU_Module.ngc ALU_Module.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Module_map.ncd ALU_Module.ngd ALU_Module.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Module_map.ncd ALU_Module.ncd ALU_Module.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml ALU_Module.twx ALU_Module.ncd -o ALU_Module.twr ALU_Module.pcf 
+xst -intstyle ise -ifn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.xst" -ofn "/home/pranav/KGP_RISC_Grp_52/ALU_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xa7a100t-csg324-2I ALU_Module.ngc ALU_Module.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_Module_map.ncd ALU_Module.ngd ALU_Module.pcf 
+par -w -intstyle ise -ol high -mt off ALU_Module_map.ncd ALU_Module.ncd ALU_Module.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml ALU_Module.twx ALU_Module.ncd -o ALU_Module.twr ALU_Module.pcf 
+xst -intstyle ise -ifn "/home/vapippal/Desktop/KGP_RISC_Grp_52/ALU_Module.xst" -ofn "/home/vapippal/Desktop/KGP_RISC_Grp_52/ALU_Module.syr" 
+xst -intstyle ise -ifn "/home/vapippal/Desktop/KGP_RISC_Grp_52/ALU_Module.xst" -ofn "/home/vapippal/Desktop/KGP_RISC_Grp_52/ALU_Module.syr" 
